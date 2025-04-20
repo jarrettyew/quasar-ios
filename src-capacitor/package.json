@@ -1,0 +1,15 @@
+{
+  "name": "quasar-ios",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "author": "Jarrett Yew <jarrett.yew@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/push-notifications": "^7.0.0",
+    "@capacitor-firebase/authentication": "^7.0.0"
+  }
+}
