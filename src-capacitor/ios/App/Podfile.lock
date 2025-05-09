@@ -11,6 +11,8 @@ PODS:
   - CapacitorFirebaseAuthentication/Lite (7.2.0):
     - Capacitor
     - FirebaseAuth (~> 11.7.0)
+  - CapacitorPushNotifications (7.0.1):
+    - Capacitor
   - FirebaseAppCheckInterop (11.11.0)
   - FirebaseAuth (11.7.0):
     - FirebaseAppCheckInterop (~> 11.0)
@@ -58,7 +60,10 @@ DEPENDENCIES:
   - "Capacitor (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
-  - "CapacitorFirebaseAuthentication (from `../../../node_modules/@capacitor-firebase/authentication`)"
+  - "CapacitorFirebaseAuthentication (from `../../node_modules/@capacitor-firebase/authentication`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
+  - FirebaseAuth
+  - FirebaseCore
 
 SPEC REPOS:
   trunk:
@@ -80,13 +85,16 @@ EXTERNAL SOURCES:
   CapacitorCordova:
     :path: "../../node_modules/@capacitor/ios"
   CapacitorFirebaseAuthentication:
-    :path: "../../../node_modules/@capacitor-firebase/authentication"
+    :path: "../../node_modules/@capacitor-firebase/authentication"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
 
 SPEC CHECKSUMS:
   Capacitor: 03bc7cbdde6a629a8b910a9d7d78c3cc7ed09ea7
   CapacitorApp: febecbb9582cb353aed037e18ec765141f880fe9
   CapacitorCordova: 5967b9ba03915ef1d585469d6e31f31dc49be96f
   CapacitorFirebaseAuthentication: 99646ed67e49b21cf4cf55911ed53c7dc32c3e53
+  CapacitorPushNotifications: 6a2794788c583dd89215f1805ca4bced1b13dbdf
   FirebaseAppCheckInterop: f23709c9ce92d810aa53ff4ce12ad3e666a3c7be
   FirebaseAuth: 77e25aa24f3e1c626c5babd3338551fc1669ee0e
   FirebaseAuthInterop: ac22ed402c2f4e3a8c63ebd3278af9a06073c1be
@@ -97,6 +105,6 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 75b671f9e551e4c49153d4c4f8659ef4f559b970
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 6a416316326b6e4a5b8921a2ad0163c0829a0ea1
+PODFILE CHECKSUM: 38237d27aa5e4516b4603844df076c9157e72ca1
 
 COCOAPODS: 1.16.2

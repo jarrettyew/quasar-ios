@@ -32,4 +32,4 @@ yarn-error.log*
 # local .env files
 .env.local*
 
-/src-capacitor/ios/App/GoogleService-Info.plist
+/src-capacitor/ios/App/App/GoogleService-Info.plist
