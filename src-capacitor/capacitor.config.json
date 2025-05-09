@@ -1,5 +1,16 @@
 {
   "appId": "org.capacitor.quasar.app",
   "appName": "Quasar App",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "CapacitorFirebaseAuthentication": {
+      "providers": [
+        "google.com"
+      ],
+      "permissions": [
+        "email",
+        "profile"
+      ]
+    }
+  }
 }

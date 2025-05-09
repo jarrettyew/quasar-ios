@@ -39,11 +39,14 @@ onMounted(async () => {
 })
 
 async function loginGoogle() {
-  error.value = null
+  console.log('[loginGoogle] platform =', Capacitor.getPlatform())
+  console.log('[loginGoogle] about to call native signInWithGoogle()')
   try {
     const res = await FirebaseAuthentication.signInWithGoogle()
+    console.log('[loginGoogle] native result =', res)
     user.value = res.user
   } catch (e) {
+    console.error('[loginGoogle] error →', e)
     error.value = e.message
   }
 }
