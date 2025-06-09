@@ -3,13 +3,10 @@
   "appName": "Quasar App",
   "webDir": "www",
   "plugins": {
-    "CapacitorFirebaseAuthentication": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
       "providers": [
         "google.com"
-      ],
-      "permissions": [
-        "email",
-        "profile"
       ]
     }
   }

@@ -41,10 +41,20 @@
   resolved "https://registry.npmjs.org/@bufbuild/protobuf/-/protobuf-2.2.5.tgz"
   integrity sha512-/g5EzJifw5GF8aren8wZ/G5oMuPoGeS6MQD3ca8ddcvdXR5UELUfdTZITCGNhNXynY/AYl3Z4plmxdj/tRl/hQ==
 
+"@capacitor-community/fcm@^7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/fcm/-/fcm-7.1.1.tgz#e282c9deef430c9bc4ba9589d040fd2748a197f9"
+  integrity sha512-sNAHgzaBv7cfafq4uLrS2yOyF8n7OtFayK0nDVaOl5CnssxIq5AQXOaTGZ2fff7FInM9sAlB9ZGGbxsyoMzV2w==
+
 "@capacitor-firebase/authentication@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@capacitor-firebase/authentication/-/authentication-7.2.0.tgz#dc1ba18a06876881d1ede7ac7c9635c34c3e05ce"
   integrity sha512-VI8Ib4DoBFTmvdUQVW0RqxB28mtaMtAogcxff5rGKnfISYMq+HrtMEIP5y9N3fytZvbi5NYvomXCiKy6cr8+6g==
+
+"@capacitor/android@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-7.3.0.tgz#68a14f0c3ad1779852237c6932433a22e145a61a"
+  integrity sha512-TqUm+Z3Uk7/rET+adNDKD63JtA0AN+pMQlFRcLPmZJHFmJl6bUOWWELVL0Ixl5XaweTxofNKeDAjjLRIs+wd3g==
 
 "@capacitor/cli@^7.2.0":
   version "7.2.0"
@@ -68,6 +78,23 @@
     tar "^6.1.11"
     tslib "^2.8.1"
     xml2js "^0.6.2"
+
+"@capacitor/core@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-7.3.0.tgz#208074f35d59d8150ec2ce40c8be9639f7f78965"
+  integrity sha512-t/DdTyBchQ2eAZuCmAARlqQsrEm0WyeNwh5zeRuv+cR6gnAsw+86/EWvJ/em5dTnZyaqEy8vlmOMdWarrUbnuQ==
+  dependencies:
+    tslib "^2.1.0"
+
+"@capacitor/ios@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-7.3.0.tgz#d7de85f32557df7eea4a46261c6a1f20402c5674"
+  integrity sha512-gHEERjA8wG/GBBZJD8i7eiX0QwGY2HMh3H3KPw5a1CGhmNhtr/1bsrgwF7s6LP+KC4kKWseYo+ZrHjw1JC3JGA==
+
+"@capacitor/push-notifications@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-7.0.1.tgz#faa73aa2d0cc3c937d4331b9f010b123090a1185"
+  integrity sha512-nSHsMSrTHX5pOkX1Khse75/uvSx/JTcXG+9aT6a66CvzalH6MCs0ha8Jv+xu0k9xW8caO+qSUMjfj5Oy82Uxmw==
 
 "@esbuild/aix-ppc64@0.25.2":
   version "0.25.2"
